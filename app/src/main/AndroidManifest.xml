@@ -13,7 +13,6 @@
         android:theme="@style/Theme.LoginFormPractice"
         tools:targetApi="31">
 
-        <!-- Your MainActivity is already declared -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,7 +22,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Add this declaration for your RegisterActivity -->
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
